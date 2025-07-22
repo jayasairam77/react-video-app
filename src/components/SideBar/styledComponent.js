@@ -1,6 +1,12 @@
 import styled from 'styled-components'
 import {NavLink} from 'react-router-dom'
 
+export const SideBarCard = styled.div`
+    display: felx;
+    height: 100%;
+    background-color: ${props => props.theme.darkTheme ? '#2c2c2cff' : '#ffffffff'};
+`
+
 export const MainCard = styled.div`
     width: 100%;
     display: flex;

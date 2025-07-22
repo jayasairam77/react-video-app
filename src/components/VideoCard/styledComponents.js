@@ -33,7 +33,7 @@ export const Image = styled.img`
         `}
         
         @media screen and (min-width: 576px){
-            ${props => props.$thumbnail && (props.varient === 'trending' || props.varient === 'saved-video') && `width: 50%;`}
+            ${props => props.$thumbnail && (props.varient === 'trending' || props.varient === 'saved-video') && `min-width: 400px; width: 40%; height: 200px;`}
         }
 `
 
